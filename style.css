@@ -8,6 +8,45 @@
     border: 1px solid #000;
 }
 
+.inline-block{
+    display: inline-block;
+}
+.navbar-container{
+    max-width: 800px;
+    height: 200px;
+    
+}
+.test-container{
+    width: 33%;
+    float: left;
+}
+.margin-center{
+    margin: 0 auto;
+}
+
+.navbar-block{
+    display: inline;
+
+}
+
+/* Align rules */
+
+.text-center{
+    text-align: center;    
+}
+
+/* float rules */
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+
+
 /* html {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
