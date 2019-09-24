@@ -1,0 +1,18 @@
+/* CCS reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+
+/* html {
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    background: #eceef1;
+    color: #404040;
+} */
