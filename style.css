@@ -13,6 +13,13 @@
     background: red
 } */
 
+/* 
+Fonts:
+
+font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+font-family: nyt-imperial,georgia,'times new roman',times,serif;
+font-family: nyt-franklin,helvetica,arial,sans-serif; 
+*/
 
 * {
     box-sizing: border-box;
@@ -20,6 +27,31 @@
     margin: 0;
     text-decoration: none;
     border: 1px solid #000;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+p, h1 {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+h1{
+    font-style: italic;
+}
+
+h2, div, span{
+    font-family: nyt-franklin,helvetica,arial,sans-serif; 
+}
+
+footer .footer-ul li{
+    float: left;
+}
+
+.social-icons li{
+    float: right;
 }
 
 .inline-block{
@@ -29,6 +61,24 @@
     min-width: fit-content;
     min-height: fit-content;
 }
+
+.fix-float-size{
+    overflow: hidden;
+}
+
+/* images and icons dimension */
+
+.top-logo-dimension{
+    width: 195px;
+    height: 26px;
+    margin: 6px auto 0;
+}
+
+.icons-dimension{
+    width: 16px;
+    height: 16px;
+}
+
 
 
 /* Width rules  */
@@ -51,6 +101,21 @@
 
 .image-related {
     max-width: 280px;
+}
+
+.page-width{
+    width: 1200px;
+}
+
+.most-popular-width{
+    width: 320px;
+}
+
+.related-width{
+    width: 860px;
+}
+.fit-content{
+    width: fit-content;
 }
 
 /* .margin rules  */
@@ -78,6 +143,10 @@
 
 .float-right{
     float: right;
+}
+
+.clear-both{
+    clear: both;
 }
 
 
