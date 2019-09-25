@@ -1,5 +1,19 @@
 /* CCS reset */
 
+/* 
+.left{
+    background: blue
+}
+
+.center{
+    background: yellow
+}
+
+.right{
+    background: red
+} */
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,14 +26,35 @@
     display: inline-block;
 }
 .navbar-container{
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+
+/* Width rules  */
+
+.nav-group {
+    min-width: fit-content;
+}
+
+.article-important-width {
     max-width: 800px;
-    height: 200px;
-    
 }
-.test-container{
-    width: 33%;
-    float: left;
+
+.article-content-width {
+    max-width: 600px;
 }
+
+.article-image {
+    width: 100%
+}
+
+.image-related {
+    max-width: 280px;
+}
+
+/* .margin rules  */
+
 .margin-center{
     margin: 0 auto;
 }
