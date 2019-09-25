@@ -44,6 +44,8 @@ p, h1 {
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
+
+
 h1{
     font-style: italic;
     font-size: 40px;
@@ -88,7 +90,7 @@ button {
     border: 0px;
 }
 
-h2, div, span, .author{
+h2, div, span, .author, .custom-footer-font{
     font-family: nyt-franklin,helvetica,arial,sans-serif; 
 }
 
@@ -123,7 +125,6 @@ footer .footer-ul li{
 
 .custom-author-font{
     font-size: .875rem;
-    
     font-weight: 500;
     line-height: 1.125rem;
 }
@@ -143,6 +144,14 @@ footer .footer-ul li{
 .article-font{
     font-size: 1.25rem;
     line-height: 1.875rem;
+}
+
+/* article footer and comments font  */
+
+.article-footer {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #999;
 }
 
 .font-bold{
@@ -215,6 +224,11 @@ footer .footer-ul li{
 }
 .fit-content{
     width: fit-content;
+}
+
+.footer-links > section{
+    width: 150px;
+    margin-right: 20px;
 }
 
 /* .margin rules  */
