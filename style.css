@@ -21,13 +21,19 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
 font-family: nyt-franklin,helvetica,arial,sans-serif; 
 */
 
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-decoration: none;
     border: 1px solid #000;
+    
 
+}
+
+figure figcaption{
+    margin-top: 10px;
 }
 
 ul li{
@@ -57,6 +63,30 @@ button {
     font-weight: 700;
 }
 
+.position-relative{
+    position: relative;
+}
+
+
+.inflation-text-margin{
+
+}
+
+.inflation-images{
+    width: 100%;
+    max-height: 140px;
+}
+
+.inflation-text{
+    position: absolute;
+    width: 228px;
+    top: -200px;
+}
+
+.remove-style{
+    background-color: 0px;
+    border: 0px;
+}
 
 h2, div, span, .author{
     font-family: nyt-franklin,helvetica,arial,sans-serif; 
@@ -82,7 +112,21 @@ footer .footer-ul li{
     overflow: hidden;
 }
 
+.most-popular-width li{
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    padding: 15px 0;
+    border-top: 1px solid #000;
+}
+
 /* Fonts */
+
+.custom-author-font{
+    font-size: .875rem;
+    
+    font-weight: 500;
+    line-height: 1.125rem;
+}
 
 .image-caption {
     font-size: 0.9375rem;
@@ -94,6 +138,15 @@ footer .footer-ul li{
     font-size: 0.8125rem;
     line-height: 1.125rem;
     color: #888
+}
+
+.article-font{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.font-bold{
+    font-weight: bold;
 }
 
 /* images and icons dimension */
@@ -109,6 +162,10 @@ footer .footer-ul li{
     height: 16px;
 }
 
+.video-dimensions{
+    width: -webkit-fill-available;
+    height: 300px;
+}
 
 
 /* Width rules  */
@@ -131,6 +188,10 @@ footer .footer-ul li{
 
 .article-image {
     width: 100%
+}
+
+.width-fill{
+    width: 100%;
 }
 
 .image-related {
