@@ -63,6 +63,8 @@ button {
     font-weight: 700;
 }
 
+
+
 .position-relative{
     position: relative;
 }
@@ -72,6 +74,8 @@ button {
     font-size: 1.25rem;
     line-height: 1.5rem;
 }
+
+
 
 .inflation-text-margin{
 
@@ -86,6 +90,22 @@ button {
     position: absolute;
     width: 228px;
     top: -200px;
+}
+
+.most-popular-menu a{
+    color: inherit;
+    text-decoration: none;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 600;
+}
+
+.related-articles h2{
+    font-size: 1.125rem;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    text-decoration: none;
+    color: #000;
+    line-height: 22px;
+    text-size-adjust: 100%;
 }
 
 .remove-style{
@@ -135,7 +155,20 @@ footer .footer-ul li{
 .image-caption {
     font-size: 0.9375rem;
     line-height: 1.25rem;
-    color: #666
+    color: #666;
+}
+
+.related-articles span{
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+    color: #888
+}
+
+.related-articles figcaption{
+    font-size: 0.625rem;
+    float: right;
+    color: rgb(153, 153, 153);
+
 }
 
 .image-source, .date {
@@ -181,6 +214,8 @@ footer .footer-ul li{
     line-height: 14px;
     border-bottom: 1px solid #666;
 }
+
+
 
 /* article footer and comments font  */
 
@@ -243,7 +278,12 @@ footer .footer-ul li{
 }
 
 .image-related {
-    max-width: 280px;
+    max-width: 270px;
+    height: 290px;
+    padding-bottom: 10px;
+    margin: 2px 7px;
+    
+    
 }
 
 .page-width{
