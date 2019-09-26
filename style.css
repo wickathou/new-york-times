@@ -27,9 +27,7 @@ font-family: nyt-franklin,helvetica,arial,sans-serif;
     padding: 0;
     margin: 0;
     text-decoration: none;
-    border: 1px solid #000;
-    
-
+    /* border: 1px solid #000; */
 }
 
 figure figcaption{
@@ -49,6 +47,11 @@ h1{
     font-size: 40px;
     line-height: 3rem;
     font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 button {
@@ -114,7 +117,7 @@ button {
 }
 
 h2, div, span, .author, .custom-footer-font{
-    font-family: nyt-franklin,helvetica,arial,sans-serif; 
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
 
 footer .footer-ul li{
@@ -168,7 +171,6 @@ footer .footer-ul li{
     font-size: 0.625rem;
     float: right;
     color: rgb(153, 153, 153);
-
 }
 
 .image-source, .date {
@@ -183,15 +185,15 @@ footer .footer-ul li{
 }
 
 .aside-box-width > h3 {
-    font-size: 0.6rem;
-    line-height: 1.25rem;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
 }
 
 .aside-content{
     font-size: 0.8125rem;
     line-height: 1rem;
     color: #888
-
 }
 
 .article-font{
@@ -215,6 +217,39 @@ footer .footer-ul li{
     border-bottom: 1px solid #666;
 }
 
+.footer-links a{
+    font-size: 14px;
+    cursor: pointer;
+    height: 23px;
+    line-height: 16px;
+}
+
+.footer-links h3{
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    height: 25px;
+    line-height: 15px;
+}
+
+.article-container a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.other-links a {
+    font-size: 11px;
+    height: 23px;
+    cursor: pointer;
+    line-height: 21px;
+}
+
+.navbar-block a {
+    line-height: 19px;
+    font-size: 14.25px;
+    font-weight: 700;
+}
 
 
 /* article footer and comments font  */
@@ -307,7 +342,7 @@ footer .footer-ul li{
 
 .footer-links > section{
     width: 150px;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 .aside-box-width{
@@ -359,6 +394,30 @@ footer .footer-ul li{
 
 .aside-margin-editor {
     margin-top: 10%;
+}
+
+.navbar-icons > div {
+ padding: 6px 8px;
+}
+
+.navbar-container-padding {
+    padding: 4px 15px 2px;
+}
+
+.article-container > p , .author, .padding-bottom-15px{
+    margin-bottom: 15px
+}
+
+.margin-vertical-image-title {
+    margin: 25px 0 43px;
+}
+
+/* Border rules  */
+
+.navbar-decoration {
+
+    border-bottom: 1px solid rgb(173, 173, 173);
+
 }
 
 
