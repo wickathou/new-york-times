@@ -40,11 +40,9 @@ ul li{
     list-style: none;
 }
 
-p, h1 {
+p, h1, h3 {
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
-
-
 
 h1{
     font-style: italic;
@@ -71,6 +69,8 @@ button {
 
 .image-title{
     font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }
 
 .inflation-text-margin{
@@ -144,14 +144,42 @@ footer .footer-ul li{
     color: #888
 }
 
+.aside-title {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.aside-box-width > h3 {
+    font-size: 0.6rem;
+    line-height: 1.25rem;
+}
+
+.aside-content{
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    color: #888
+
+}
+
 .article-font{
     font-size: 1.25rem;
     line-height: 1.875rem;
 }
 
+.infographic-title{
+    font-size: 11px;
+    font-weight: bold;
+}
+
 .images-margin > .image-related{
     margin: 0 9px;
 
+}
+
+.editors-pick-font {
+    font-size: 14px;
+    line-height: 14px;
+    border-bottom: 1px solid #666;
 }
 
 /* article footer and comments font  */
@@ -242,6 +270,25 @@ footer .footer-ul li{
     margin-right: 20px;
 }
 
+.aside-box-width{
+    width: 210px;
+}
+
+.aside-text-box{
+    width: 125px;
+}
+
+.aside-image-box {
+    width: 80px;
+}
+
+ /* height rules  */
+
+.aside-box-height {
+    height: 85px;
+}
+
+
 /* .margin rules  */
 
 .margin-center{
@@ -267,7 +314,7 @@ footer .footer-ul li{
 
 .aside-margin {
     margin-top: 20%;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .aside-margin-editor {
