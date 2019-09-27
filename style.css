@@ -57,6 +57,7 @@ button {
 	vertical-align: middle;
 	padding: 17px 40px;
 }
+
 .top-border {
 	border-top: 1px solid #000;
 	padding: 15px 0;
@@ -89,6 +90,17 @@ button {
 	position: absolute;
 	width: 228px;
 	top: -200px;
+}
+
+strong {
+	color: #000 !important;
+	font-size: 20px;
+}
+
+.author strong,
+a {
+	color: #000 !important;
+	font-size: 15px;
 }
 
 .most-popular-menu a {
@@ -186,17 +198,6 @@ footer .footer-ul li {
 
 .grey-color-font a {
 	color: #888;
-}
-
-.author strong,
-a {
-	color: #000 !important;
-	font-size: 15px;
-}
-
-strong {
-	color: #000 !important;
-	font-size: 20px;
 }
 
 .custom-author-font {
@@ -450,6 +451,7 @@ strong {
 .margin-top-10px {
 	margin-top: 10px;
 }
+
 .bottom-page-margin {
 	border-top: 3px double grey;
 }
