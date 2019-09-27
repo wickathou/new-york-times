@@ -5,7 +5,6 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  /* border: 1px solid #000; */
 }
 
 figure .figcaption {
@@ -53,10 +52,6 @@ button {
 
 .bottom-button {
   width: 330px;
-}
-
-.article-container .figcaption {
-  margin-bottom: 10px;
 }
 
 .article-container .figcaption {
@@ -126,6 +121,10 @@ span,
 .author,
 .custom-footer-font {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.padding-sides-10px li {
+  padding: 0 10px;
 }
 
 footer .footer-ul li {
@@ -475,7 +474,7 @@ strong {
 
 .aside-margin {
   margin-top: 20%;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .aside-margin-editor {
@@ -508,9 +507,7 @@ strong {
   padding-bottom: 20px;
 }
 
-.padding-sides-10px li {
-  padding: 0 10px;
-}
+
 
 /* Border rules  */
 
