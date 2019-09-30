@@ -28,10 +28,10 @@ h1 {
 	font-weight: 700;
 }
 
-a {
+/* a {
 	text-decoration: none;
 	color: #000;
-}
+} */
 
 button {
 	cursor: pointer;
@@ -56,6 +56,15 @@ button {
 	text-align: center;
 	vertical-align: middle;
 	padding: 17px 40px;
+}
+
+.top-navbar-fixed{
+	width: 100%;
+    position: fixed;
+	background: white;
+	z-index: 2;
+    top: 0;
+    left: 0;
 }
 
 .top-border {
@@ -93,14 +102,11 @@ button {
 }
 
 strong {
-	color: #000 !important;
 	font-size: 20px;
 }
 
-.author strong,
-a {
-	color: #000 !important;
-	font-size: 15px;
+#author {
+	color: #000;
 }
 
 .most-popular-menu a {
@@ -268,6 +274,8 @@ footer .footer-ul li {
 
 .footer-links a {
 	font-size: 14px;
+	color: #000;
+	text-decoration: none;
 	text-transform: capitalize;
 	cursor: pointer;
 	height: 23px;
@@ -292,8 +300,8 @@ footer .footer-ul li {
 
 .article-container a {
 	text-decoration: underline;
-	color: blue;
 	cursor: pointer;
+	color: #326891;
 }
 
 .other-links a {
@@ -307,6 +315,7 @@ footer .footer-ul li {
 	line-height: 19px;
 	font-size: 14.25px;
 	font-weight: 700;
+	color: #000;
 }
 
 /* Asides */
@@ -423,13 +432,22 @@ footer .footer-ul li {
 	width: fit-content;
 }
 
-.footer-links > section {
+.footer-links > div {
 	width: 150px;
 	margin: 0 20px;
 }
 
 .aside-box-width {
 	width: 230px;
+}
+
+.aside-signup-width {
+	width: 180px;
+	margin-right: 50px
+}
+
+.aside-signup-width p {
+	margin: 10px 0;
 }
 
 .aside-text-box {
@@ -494,7 +512,7 @@ footer .footer-ul li {
 }
 
 .title-margin {
-	margin-top: 45px;
+	margin-top: 85px;
 	margin-bottom: 16px;
 }
 
@@ -541,6 +559,7 @@ footer .footer-ul li {
 
 .navbar-decoration {
 	border-bottom: 1px solid rgb(173, 173, 173);
+	
 }
 
 /* Align rules */
