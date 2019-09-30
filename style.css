@@ -58,7 +58,7 @@ button {
 	padding: 17px 40px;
 }
 
-.top-navbar-fixed{
+.top-navbar-fixed {
 	width: 100%;
     position: fixed;
 	background: white;
@@ -443,7 +443,7 @@ footer .footer-ul li {
 
 .aside-signup-width {
 	width: 180px;
-	margin-right: 50px
+	margin-right: 50px;
 }
 
 .aside-signup-width p {
@@ -559,7 +559,6 @@ footer .footer-ul li {
 
 .navbar-decoration {
 	border-bottom: 1px solid rgb(173, 173, 173);
-	
 }
 
 /* Align rules */
